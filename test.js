@@ -22,8 +22,8 @@ document.getElementById('generateBtn').addEventListener('click', async () => {
   ctx.textAlign = 'center'; // Key for centering
 
   // Draw text (centered at x=50% of canvas width)
-  ctx.fillText(`Name: ${name}`, canvas.width / 2, 150); 
-  ctx.fillText(`Amount: $${amount}`, canvas.width / 2, 200);
+  ctx.fillText(`Heyy ${name} 😍😍, canvas.width / 2, 150); 
+  ctx.fillText(`${amount}, 🚀😎 a fancy Nickame`, canvas.width / 2, 200);
 
   canvas.style.width = "100%";
   canvas.style.height ='auto';
