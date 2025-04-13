@@ -7,19 +7,16 @@
   </head>
   <body>
     <!-- User Inputs -->
-    <input type="text" id="name" placeholder="Name" />
-    <input type="text" id="amount" placeholder="Nick Name" />
-    <button id="generateBtn">Generate Image</button>
+    <form action="#">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="text" id="amount" placeholder="Nick Name" required />
+      <button id="generateBtn">Generate Image</button>
+    </form>
 
     <!-- Preview & Actions -->
     <div
       id="previewSection"
-      style="
-        display: none;
-        width: 400px;
-        height: 600px;
-        overflow: hidden;
-      "
+      style="display: none; width: 400px; height: 600px; overflow: hidden"
     >
       <canvas id="receiptCanvas"></canvas>
       <div>
@@ -30,4 +27,3 @@
     <script src="test.js"></script>
   </body>
 </html>
-
